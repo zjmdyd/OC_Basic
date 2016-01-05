@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "String.h"
+#import "BasicDataType.h"
+#import "NSAssertUsage.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
-        NSLog(@"Hello, World!");
+        [String testStringClass];
+        
+        [BasicDataType floatType];
+        [NSAssertUsage nsAssertUsage];
     }
     return 0;
 }

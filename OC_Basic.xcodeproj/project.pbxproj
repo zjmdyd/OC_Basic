@@ -7,7 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66F6DB4F1B97019F0074597C /* String.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F6DB4E1B97019F0074597C /* String.m */; };
 		66F717931B91B53C00DDFAFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F717921B91B53C00DDFAFD /* main.m */; };
+		66F7179B1B91B60600DDFAFD /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F7179A1B91B60600DDFAFD /* Block.m */; };
+		66F9A6A81BA67D94000B180C /* BasicDataType.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F9A6A71BA67D94000B180C /* BasicDataType.m */; };
+		66F9A6AB1BA6B424000B180C /* NSAssertUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F9A6AA1BA6B424000B180C /* NSAssertUsage.m */; };
+		66F9A6B11BA7C0B3000B180C /* Macro.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F9A6B01BA7C0B3000B180C /* Macro.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +28,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		66F6DB4D1B97019F0074597C /* String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = String.h; sourceTree = "<group>"; };
+		66F6DB4E1B97019F0074597C /* String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = String.m; sourceTree = "<group>"; };
 		66F7178F1B91B53C00DDFAFD /* OC_Basic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OC_Basic; sourceTree = BUILT_PRODUCTS_DIR; };
 		66F717921B91B53C00DDFAFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		66F717991B91B60600DDFAFD /* Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Block.h; sourceTree = "<group>"; };
+		66F7179A1B91B60600DDFAFD /* Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Block.m; sourceTree = "<group>"; };
+		66F9A6A61BA67D94000B180C /* BasicDataType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicDataType.h; sourceTree = "<group>"; };
+		66F9A6A71BA67D94000B180C /* BasicDataType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicDataType.m; sourceTree = "<group>"; };
+		66F9A6A91BA6B424000B180C /* NSAssertUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSAssertUsage.h; sourceTree = "<group>"; };
+		66F9A6AA1BA6B424000B180C /* NSAssertUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSAssertUsage.m; sourceTree = "<group>"; };
+		66F9A6AF1BA7C0B3000B180C /* Macro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro.h; sourceTree = "<group>"; };
+		66F9A6B01BA7C0B3000B180C /* Macro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Macro.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,16 @@
 			isa = PBXGroup;
 			children = (
 				66F717921B91B53C00DDFAFD /* main.m */,
+				66F717991B91B60600DDFAFD /* Block.h */,
+				66F7179A1B91B60600DDFAFD /* Block.m */,
+				66F6DB4D1B97019F0074597C /* String.h */,
+				66F6DB4E1B97019F0074597C /* String.m */,
+				66F9A6A61BA67D94000B180C /* BasicDataType.h */,
+				66F9A6A71BA67D94000B180C /* BasicDataType.m */,
+				66F9A6A91BA6B424000B180C /* NSAssertUsage.h */,
+				66F9A6AA1BA6B424000B180C /* NSAssertUsage.m */,
+				66F9A6AF1BA7C0B3000B180C /* Macro.h */,
+				66F9A6B01BA7C0B3000B180C /* Macro.m */,
 			);
 			path = OC_Basic;
 			sourceTree = "<group>";
@@ -118,7 +143,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				66F9A6B11BA7C0B3000B180C /* Macro.m in Sources */,
+				66F9A6A81BA67D94000B180C /* BasicDataType.m in Sources */,
+				66F6DB4F1B97019F0074597C /* String.m in Sources */,
 				66F717931B91B53C00DDFAFD /* main.m in Sources */,
+				66F9A6AB1BA6B424000B180C /* NSAssertUsage.m in Sources */,
+				66F7179B1B91B60600DDFAFD /* Block.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +265,7 @@
 				66F717981B91B53C00DDFAFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
