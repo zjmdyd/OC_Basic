@@ -19,4 +19,9 @@ char *obtain_c_string() {
     NSLog(@"%s class = %@", obtain_c_string(), @(obtain_c_string()).class);
 }
 
+- (id)say {
+    NSLog(@"%s", __func__);
+    return 0;
+}
+
 @end

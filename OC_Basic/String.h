@@ -12,4 +12,6 @@
 
 + (void)testStringClass;
 
+- (id)say;
+
 @end

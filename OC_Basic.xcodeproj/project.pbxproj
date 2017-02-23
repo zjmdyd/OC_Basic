@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		387B41A91D65C14B005643F8 /* IMPObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 387B41A81D65C14B005643F8 /* IMPObject.m */; };
 		66F6DB4F1B97019F0074597C /* String.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F6DB4E1B97019F0074597C /* String.m */; };
 		66F717931B91B53C00DDFAFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F717921B91B53C00DDFAFD /* main.m */; };
 		66F7179B1B91B60600DDFAFD /* Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 66F7179A1B91B60600DDFAFD /* Block.m */; };
@@ -28,6 +29,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		387B41A71D65C14B005643F8 /* IMPObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMPObject.h; sourceTree = "<group>"; };
+		387B41A81D65C14B005643F8 /* IMPObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IMPObject.m; sourceTree = "<group>"; };
 		66F6DB4D1B97019F0074597C /* String.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = String.h; sourceTree = "<group>"; };
 		66F6DB4E1B97019F0074597C /* String.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = String.m; sourceTree = "<group>"; };
 		66F7178F1B91B53C00DDFAFD /* OC_Basic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OC_Basic; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,6 +86,8 @@
 				66F9A6AA1BA6B424000B180C /* NSAssertUsage.m */,
 				66F9A6AF1BA7C0B3000B180C /* Macro.h */,
 				66F9A6B01BA7C0B3000B180C /* Macro.m */,
+				387B41A71D65C14B005643F8 /* IMPObject.h */,
+				387B41A81D65C14B005643F8 /* IMPObject.m */,
 			);
 			path = OC_Basic;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 			files = (
 				66F9A6B11BA7C0B3000B180C /* Macro.m in Sources */,
 				66F9A6A81BA67D94000B180C /* BasicDataType.m in Sources */,
+				387B41A91D65C14B005643F8 /* IMPObject.m in Sources */,
 				66F6DB4F1B97019F0074597C /* String.m in Sources */,
 				66F717931B91B53C00DDFAFD /* main.m in Sources */,
 				66F9A6AB1BA6B424000B180C /* NSAssertUsage.m in Sources */,
@@ -235,6 +241,7 @@
 		66F717971B91B53C00DDFAFD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -242,6 +249,7 @@
 		66F717981B91B53C00DDFAFD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

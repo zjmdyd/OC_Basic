@@ -10,13 +10,15 @@
 #import "String.h"
 #import "BasicDataType.h"
 #import "NSAssertUsage.h"
+#import "IMPObject.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        [String testStringClass];
+        [IMPObject test];
         
-        [BasicDataType floatType];
-        [NSAssertUsage nsAssertUsage];
+//        [String testStringClass];
+//        [BasicDataType floatType];
+//        [NSAssertUsage nsAssertUsage];
     }
     return 0;
 }

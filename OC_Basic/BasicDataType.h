@@ -12,4 +12,6 @@
 
 + (void)floatType;
 
+- (id)say;
+
 @end

@@ -17,4 +17,9 @@
     }
 }
 
+- (id)say {
+    NSLog(@"%s", __func__);
+    return 0;
+}
+
 @end
